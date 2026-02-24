@@ -53,15 +53,8 @@ export default function UserPreferences() {
 
   return (
     <div className="up-page">
-      {/* Animated Background Elements */}
-      <div className="bg-decoration">
-        <div className="circle circle-1"></div>
-        <div className="circle circle-2"></div>
-        <div className="circle circle-3"></div>
-        <div className="coffee-bean bean-1">☕</div>
-        <div className="coffee-bean bean-2">☕</div>
-        <div className="coffee-bean bean-3">☕</div>
-      </div>
+     
+     
 
       {/* HEADER */}
       <div className="up-header">

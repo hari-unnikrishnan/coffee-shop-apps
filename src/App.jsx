@@ -15,7 +15,7 @@ import UserPreferences from "./pages/UserPreferences";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/coffee-shop-apps">
       <Routes>
         <Route path="/" element={<Splash />} />
         <Route path="/splash" element={<Splash />} />
@@ -34,4 +34,3 @@ export default function App() {
     </BrowserRouter>
   );
 }
-

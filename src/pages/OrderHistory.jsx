@@ -9,7 +9,7 @@ export default function OrderHistory() {
     {
       id: 1,
       items: [
-        { name: "Espresso", price: 9.5, quantity: 1, image: "../assets/image/images.jpg"  }
+        { name: "Espresso", price: 9.5, quantity: 1, image: "/coffee-shop-apps/assets/image/images.jpg"  }
       ],
       total: 10.5,
       status: "Delivered",
@@ -18,7 +18,7 @@ export default function OrderHistory() {
      {
       id: 2,
       items: [
-        {  name: "Iced Latte", price: 7.5, quantity: 2, image: "../assets/image/Latte-kaves-pohar-keszlet-6-db-285-ml6.webp"  }
+        {  name: "Iced Latte", price: 7.5, quantity: 2, image: "/coffee-shop-apps/assets/image/Latte-kaves-pohar-keszlet-6-db-285-ml6.webp"  }
       ],
       total: 123.5,
       status: "Delivered",
@@ -28,7 +28,7 @@ export default function OrderHistory() {
     {
       id: 3,
       items: [
-        { name: "Cappuccino", price: 10.5, quantity: 1, image: "../assets/image/starbucks-coffee-by-nescafe-dolce-gusto-latte-macchiato-coffee-pods-12-capsules.jpg" }
+        { name: "Cappuccino", price: 10.5, quantity: 1, image: "/coffee-shop-apps/assets/image/starbucks-coffee-by-nescafe-dolce-gusto-latte-macchiato-coffee-pods-12-capsules.jpg" }
       ],
       total: 10.5,
       status: "Cancelled",
